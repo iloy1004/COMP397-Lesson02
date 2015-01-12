@@ -71,7 +71,6 @@
     <Content Include="css\app.css" />
     <Content Include="index.html" />
     <Content Include="Scripts\lib\easeljs-0.8.0.min.js" />
-    <Content Include="Scripts\gmae.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -84,14 +83,10 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\game.ts" />
-    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-animate.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-cookies.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-mocks.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-resource.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-route.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\angularjs\angular-sanitize.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\angularjs\angular.d.ts" />
-    <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="Scripts\lib\createjs-lib.d.ts" />
+    <TypeScriptCompile Include="Scripts\lib\easeljs.d.ts" />
+    <TypeScriptCompile Include="Scripts\lib\jquery.d.ts" />
+    <TypeScriptCompile Include="Scripts\lib\tweenjs.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
